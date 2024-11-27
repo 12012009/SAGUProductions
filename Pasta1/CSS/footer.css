@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: white;
+}
+#cabecalho{
+    background-color: #9a8f7b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinha o logo e o menu verticalmente */
+    padding: 10px; /* Adiciona um pouco de espaçamento */
+}
+#menu{
+    display: flex;
+    gap: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    
+
+}
+#home{
+    color: red;
+    text-decoration: none;
+}
+#filmes{
+    color: white;
+    text-decoration: none;
+}
+#sobre{
+    color: white;
+    text-decoration: none;
+}
+#contato{
+    color: white;
+    text-decoration: none;
+}
+#entrar{
+    color: white;
+    text-decoration: none;
+}
+#logo{
+    width: 190px;
+}
+#home2{
+    color: white;
+    text-decoration: none;
+}
+#filmes2{
+    color: red;
+    text-decoration: none;
+}
+#sobre2{
+    color: white;
+    text-decoration: none;
+}
+#contato2{
+    color: white;
+    text-decoration: none;
+}
+#entrar2{
+    color: white;
+    text-decoration: none;
+}
+#home3{
+    color: white;
+    text-decoration: none;
+}
+#filmes3{
+    color: white;
+    text-decoration: none;
+}
+#sobre3{
+    color: red;
+    text-decoration: none;
+}
+#contato3{
+    color: white;
+    text-decoration: none;
+}
+#entrar3{
+    color: white;
+    text-decoration: none;
+}
+#home4{
+    color: white;
+    text-decoration: none;
+}
+#filmes4{
+    color: white;
+    text-decoration: none;
+}
+#sobre4{
+    color: white;
+    text-decoration: none;
+}
+#contato4{
+    color: red;
+    text-decoration: none;
+}
+#entrar4{
+    color: white;
+    text-decoration: none;
+}
+#home5{
+    color: white;
+    text-decoration: none;
+}
+#filmes5{
+    color: white;
+    text-decoration: none;
+}
+#sobre5{
+    color: white;
+    text-decoration: none;
+}
+#contato5{
+    color: white;
+    text-decoration: none;
+}
+#entrar5{
+    color: red;
+    text-decoration: none;
+}
+#filme5{
+    color: white;
+    text-decoration: none;
+}
+#buscar{
+    background-color: rgb(198, 40, 40);
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100px;
+    color: white;
+    border: 2px solid rgb(198, 40, 40);
+}
+#pesquisa{
+    display: flex;
+    height: 40px;
+
+}
+#container{
+    width: 350px;
+}
+#rodape{
+    background-color: #9a8f7b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+    margin-top: 0px;
+
+}
+#termos{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#privacidade{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.btn.btn-sim{
+    width: 450px;
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;  /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta o alinhamento */
+    background-color: rgb(198, 40, 40);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 32px;
+    margin-left: 300px;
+
+  }
+  
+  .btn.btn-sim:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .card-text{
+    text-align: justify;
+  }
+
+  .text-center.mb-4{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+
+
+
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100%; 
+  }
+  
+  .btn{
+    margin-top: auto; 
+    width: 100%; 
+   
+  }
+  #corpo3{
+    background-color: #dfd4c1;
+    text-align: justify;
+    height: ;
+  }
+  .btn.btn-danger{
+    background-color: rgb(198, 40, 40);
+    margin-top: 30px;
+
+  }
+  .card{
+    margin-top: 10px;
+  }
+#rodape2{
+    background-color: #9a8f7b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+    margin-top: 65px;
+}
+
+#rodape3{
+    background-color: #9a8f7b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.text-center.mb-4{
+    margin-top: 30px
+}
+#corpo5{
+   text-align: justify;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 25px;
+}
+#rodape3{
+    margin-top: 35px;
+}
+#logopng{
+    width: 35%;
+    margin-left: 28%;
+}
+#containerCC{
+    margin-left: 10%;
+    display: flex;       
+    padding: 10px;
+    margin-top: 20px;
+    gap: 20%;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+#card3{
+    margin-left: 15%;
+    margin-right: 20%;
+  
+}
+#p1{
+    color: white;
+}
+#sucesso{
+    margin-left: 20%;
+    width: 60%;
+}
+#danger2{
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+#termos1{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+#termoss{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-check-label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#rodape4{
+    background-color: #9a8f7b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+    margin-top: 15px;
+}
+#privacidade3{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+}
